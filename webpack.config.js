@@ -58,7 +58,7 @@ module.exports = {
   // Default for boilerplate generation.
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Spectacle presentation",
+      title: "styled-components huddle",
       template: "./src/index.html"
     })
   ]
