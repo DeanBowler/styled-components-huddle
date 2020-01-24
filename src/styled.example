@@ -1,0 +1,12 @@
+const HelloWorld = ({ name }) => (
+  <div>
+    <h1>
+      Create Live Code Examples in {name}!
+    </h1>
+    <p>
+      Supports Light and Dark Syntax Themes
+    </p>
+  </div>
+)
+
+render(<HelloWorld name="Spectacle" />)
