@@ -340,11 +340,21 @@ export default class Presentation extends Component {
             Example
           </Heading>
           <iframe
+            src="https://codesandbox.io/embed/styled-components-theme-provider-7yyd2?fontsize=14&hidenavigation=1&theme=dark"
+            // style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+            height="500px"
+            width="1000px"
+            style={{ margin: "2rem" }}
+            title="styled-components-theme-provider"
+            allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+            sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+          ></iframe>
+          {/* <iframe
             height="500px"
             width="1000px"
             style={{ margin: "2rem" }}
             src="https://memdeck-reaction.netlify.com/settings"
-          ></iframe>
+          ></iframe> */}
         </Slide>
         <Slide bgColor="black">
           <BlockQuote>
